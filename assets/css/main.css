@@ -996,7 +996,7 @@ code {
 }
 
 .modal-header h2 {
-  color: rgba(255, 255, 255, 0.75);
+  color: #FEFEFE;
   font-size: 20px;
   margin: 0;
 }
@@ -1011,7 +1011,7 @@ code {
 }
 
 .btn-close {
-  color: #aaa;
+  color: #FEFEFE;
   font-size: 30px;
   text-decoration: none;
   position: absolute;
