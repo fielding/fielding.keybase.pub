@@ -927,6 +927,7 @@ code {
   line-height: normal;
   letter-spacing: normal;
   font-size: 10pt;
+  cursor: pointer;
 }
 
 .key-blob:focus {
