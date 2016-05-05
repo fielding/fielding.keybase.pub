@@ -1022,3 +1022,12 @@ code {
 .btn-close:hover {
   color: #919191;
 }
+
+.purple-link {
+  color: #9477C9;
+}
+
+.purple-link:hover {
+  text-decoration: underline;
+  color: #5B3B96;
+}
