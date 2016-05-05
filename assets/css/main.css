@@ -5,9 +5,7 @@
 /* Reset */
 
 /*
-pink: #9477C9
-orange: #9477C9
-
+purple: #9477C9
  */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -963,7 +961,8 @@ code {
 
 .modal-dialog {
   background: #fefefe;
-  border: #414f57 solid 1px;
+  /* border: #414f57 solid 1px; */
+  border-radius: 8px;
   margin-left: -300px;
   position: fixed;
   left: 50%;
@@ -992,11 +991,14 @@ code {
 .modal-header {
   border-bottom: #eee solid 1px;
   background-color: #414f57;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .modal-header h2 {
   color: rgba(255, 255, 255, 0.75);
   font-size: 20px;
+  margin: 0;
 }
 
 .modal-footer {
@@ -1015,6 +1017,7 @@ code {
   position: absolute;
   right: 5px;
   top: 0;
+  line-height: normal;
 }
 .btn-close:hover {
   color: #919191;
